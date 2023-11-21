@@ -1,0 +1,28 @@
+.bannerBG{
+    background-image: url("../../../src/assets/background.jpg");
+    height: 100vh;
+    font-family: Inter;
+}
+
+.bannerHead{
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 70px;
+    color: black;
+    padding: 5vh;
+}
+
+.bannerHead > p {
+    margin-top: 5vh;
+}
+
+.bannerParagraph{
+    margin-top: 20vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 25px;
+    color: white;
+    padding-top: 2vh;
+    /* padding-bottom: 2vh; */
+}

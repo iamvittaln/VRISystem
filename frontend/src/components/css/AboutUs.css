@@ -1,0 +1,76 @@
+/* AboutUs.css */
+* {
+    font-family: Inter;
+    
+}
+.about-us {
+    /* background-image: url("../../../src/assets/background.jpg"); */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .heading-primary {
+    text-align:center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .heading-secondary {
+    text-align:center;
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .paragraph {
+    line-height: 1.6;
+    color: black;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    color: #1976D2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add some spacing between sections */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the contact information */
+  .contact-info {
+    background-color: #1976D2;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .contact-info .link {
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .contact-info .link:hover {
+    text-decoration: none;
+  }
+  

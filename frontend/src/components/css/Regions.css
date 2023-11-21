@@ -1,0 +1,72 @@
+.region-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.region-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.region-table th,
+.region-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.region-table th {
+  background-color: #f2f2f2;
+}
+
+.indicator-bar {
+  border-radius: 5px;
+  height: 12px;
+  margin: 6px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+button {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.buttonOn {
+  border: 2px solid greenyellow;
+  color: greenyellow;
+}
+
+.buttonOff {
+  border: 2px solid red;
+  color: red;
+}
+
+.buttonOn:hover {
+  background-color: orangered;
+}
+
+.buttonOff:hover {
+background-color: black;
+}
+
