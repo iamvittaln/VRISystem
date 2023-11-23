@@ -1,6 +1,7 @@
 # VRISystem
 ## Description
 ### Implementation of variable rate irrigation system to improve crop yield.
+### Tech Stack: React, NodeJS, MongoDB
 ## Sample Images
 ### Homepage
 ![Homepage](https://github.com/iamvittaln/VRISystem/assets/62231556/34ced805-40ab-4804-85a5-e33bca8ff102)
